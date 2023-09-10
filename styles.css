@@ -7,6 +7,8 @@ body {
     background: linear-gradient(90deg, rgba(115, 174, 177, 1) 0%, rgba(200, 219, 215, 1) 46%, rgba(90, 169, 185, 1) 100%);
     color: #0f1334;
     font-family: 'Nunito Sans', sans-serif;
+    /* font-size segun https://matthewjamestaylor.com/responsive-font-size para asegurar que sea responsive */
+    font-size: calc(15px + 0.390625vw);
 }
 
 .enfasis {
